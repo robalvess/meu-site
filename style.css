@@ -70,6 +70,18 @@ h2{
     padding: 15px 0;
 }
 
+.video-canal{
+    text-align: center;
+    width: 960px;
+    margin: auto;
+}
+
+.video-canal h1{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
 .divisor-0{
     height: 100px;
     background: linear-gradient(white 50%, rgb(41,35,92));
@@ -101,6 +113,11 @@ h2{
     border-radius: 400px;
     float: left;
     padding: 25px;
+    transition: 250ms;
+}
+
+.logo-conteudo:hover{
+    opacity: 0.5;
 }
 
 .texto-do-conteudo{
@@ -122,5 +139,35 @@ h2{
 
 .divisor-2{
     height: 100px;
-    background: linear-gradient(rgb(155,54,79),rgb(1, 63, 9))
+    background: linear-gradient(rgb(155,54,79),rgb(27, 34, 26))
+}
+
+.ingles{
+    background: rgb(27, 34, 26);
+    color: white;
+    padding-bottom: 25px;
+}
+
+.divisor-3{
+    height: 100px;
+    background: linear-gradient(rgb(27, 34, 26),white);
+}
+
+/* Rodapé */
+
+footer{
+    background: linear-gradient(90deg, white 70%, rgb(155,54,79));
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px rgb(155,54,79) solid;
+}
+
+.logo-final{
+    width: 12%;
+}
+
+.copyright{
+    font-size: 15px;
 }
