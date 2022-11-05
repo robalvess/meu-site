@@ -139,24 +139,24 @@ h2{
 
 .divisor-2{
     height: 100px;
-    background: linear-gradient(rgb(155,54,79),rgb(27, 34, 26))
+    background: linear-gradient(rgb(155,54,79),rgb(174, 158, 12))
 }
 
 .ingles{
-    background: rgb(27, 34, 26);
+    background: rgb(174, 158, 12);
     color: white;
     padding-bottom: 25px;
 }
 
 .divisor-3{
     height: 100px;
-    background: linear-gradient(rgb(27, 34, 26),white);
+    background: linear-gradient(rgb(174, 158, 12),white);
 }
 
 /* Rodapé */
 
 footer{
-    background: linear-gradient(90deg, white 70%, rgb(155,54,79));
+    background: linear-gradient(90deg, white 60%, rgb(155,54,79));
     width: 100%;
     margin: auto;
     text-align: center;
