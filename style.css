@@ -1,0 +1,126 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+}
+
+header{
+    padding-bottom: 66px;
+    background: linear-gradient(90deg, white 50%, rgb(155,54,79));
+    border-bottom: 5px solid rgb(155,54,79);
+}
+
+.caixa{
+    width: 960px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+.logo{
+    width: 23%;
+    position: relative;
+    top: 50px;
+}
+
+.navegacao{
+    position: absolute;
+    top: 110px;
+    right:0;
+}
+
+.navegacao li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+.navegacao a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(10,16,56);
+    transition: 400ms;
+}
+
+.navegacao a:hover{
+    color: white;
+}
+
+.sobre-mim{
+    width: 960px;
+    margin: 15px auto 0 auto;
+    vertical-align: top;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.minha-foto{
+    width: 20%;
+    float: left;
+    padding-right: 15px;
+    border-radius: 80px;
+}
+
+.sobre-mim p{
+    line-height: 25px;
+    padding: 15px 0;
+}
+
+.divisor-0{
+    height: 100px;
+    background: linear-gradient(white 50%, rgb(41,35,92));
+}
+/* essa seção é a das disciplinas */
+
+.fisica{
+    background: rgb(41,35,92);
+    color: white;
+    width:  100%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.conteudos{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px;
+    color: white;
+}
+
+.logo-conteudo{
+    width: 15%;
+    height: 15%;
+    border-radius: 400px;
+    float: left;
+    padding: 25px;
+}
+
+.texto-do-conteudo{
+    width: 960px;
+    padding: 25px;
+    color: white;
+}
+
+.divisor-1 {
+    height: 100px;
+    background: linear-gradient(rgb(41,35,92),rgb(155,54,79))
+}
+
+.matematica{
+    width: 100%;
+    background: rgb(155,54,79);
+    text-align: center;
+}
+
+.divisor-2{
+    height: 100px;
+    background: linear-gradient(rgb(155,54,79),rgb(1, 63, 9))
+}
